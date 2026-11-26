@@ -1,0 +1,484 @@
+{
+  "common": {
+    "logo": "/logo.png",
+    "footerLogo": "/logo-w.png",
+    "phone": "+1 000 000 000",
+    "phoneHref": "tel:+919876543210",
+    "email": "info@xyz.com",
+    "emailHref": "mailto:info@xyz.com",
+    "contactEmail": "info@boxnexa.com",
+    "contactEmailHref": "mailto:info@xyz.com",
+    "networkLabel": "Global Logistics Network",
+    "address": "123 Freightix , New York, NY 10001",
+    "socialLinks": [
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/"
+      },
+      {
+        "id": "facebook",
+        "label": "Facebook",
+        "href": "https://www.facebook.com/"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "href": "https://www.instagram.com/"
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "href": "https://www.youtube.com/"
+      }
+    ]
+  },
+  "categories": {
+    "LogisticsCargo": {
+      "templateComponents": {
+        "template-1": {
+          "shared": {
+            "TopBar": "FreightTopBar1",
+            "Header": "FreightHeader1",
+            "Footer": "FreightFooter1"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                { "key": "Banner", "component": "FreightBanner1" },
+                { "key": "About", "component": "FreightAbout1" },
+                { "key": "Services", "component": "FreightServices1" },
+                { "key": "WhyChooseUs", "component": "FreightWhyChoose1" },
+                { "key": "Team", "component": "FreightTeam1" },
+                { "key": "HowItWorks", "component": "FreightHowItWorks1" },
+                { "key": "Testimonials", "component": "FreightTestimonials1" },
+                { "key": "Contact", "component": "FreightContact1" },
+                { "key": "Faqs", "component": "FreightFaqs1" }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "FreightTopBar1": {
+              "sectionId": "topbar",
+              "showSocial": true
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "FreightHeader1": {
+              "logo": "/logo.png",
+              "homeHref": "#home",
+              "homeAriaLabel": "Freightix home",
+              "menuAriaLabel": "Toggle Menu",
+              "navLinks": [
+                { "label": "Home", "href": "#home", "id": "home" },
+                { "label": "About Us", "href": "#about", "id": "about" },
+                { "label": "Services", "href": "#services", "id": "services" },
+                { "label": "Why Choose Us", "href": "#why-choose-us", "id": "why-choose-us" },
+                { "label": "Our Teams", "href": "#team", "id": "team" },
+                { "label": "How It Work", "href": "#how-it-works", "id": "how-it-works" },
+                { "label": "Testimonial", "href": "#testimonials", "id": "testimonials" },
+                { "label": "Faqs", "href": "#faqs", "id": "faqs" }
+              ],
+              "ctaButton": {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            }
+          }
+        },
+        "Banner": {
+          "variants": {
+            "FreightBanner1": {
+              "sectionId": "home",
+              "badge": "GLOBAL LOGISTICS SOLUTIONS",
+              "headlineLine1": "Reliable Logistics",
+              "headlineHighlight": "Cargo",
+              "headlineEnd": "Services",
+              "subheadline": "Connecting businesses worldwide with seamless transportation, freight and supply chain solutions.",
+              "bgImage": "/hero.webp",
+              "bgImageAlt": "Freightix cargo plane, container ship, crane and truck",
+              "ctaButton": {
+                "label": "All Services",
+                "href": "#services"
+              },
+              "callLabel": "Call Us Now"
+            }
+          }
+        },
+        "About": {
+          "variants": {
+            "FreightAbout1": {
+              "sectionId": "about",
+              "badge": "ABOUT FREIGHTIX",
+              "headlineLines": [
+                [{ "t": "We" }, { "t": "Provide" }, { "t": "a" }, { "t": "Full" }, { "t": "Range" }],
+                [{ "t": "of" }, { "t": "Logistics", "accent": true }, { "t": "Solutions" }]
+              ],
+              "description": "A trusted global logistics partner, delivering reliable, flexible and cost-effective transportation and supply chain solutions for businesses worldwide.",
+              "points": [
+                "End-to-End Supply Chain Support",
+                "On-Time & Secure Deliveries",
+                "Experienced & Dedicated Team"
+              ],
+              "teamLabel": "Meet Our Expert Team",
+              "teamHref": "#team",
+              "statValue": 89,
+              "statSuffix": "+",
+              "statLabel": "Global Locations",
+              "imageA": "/a2.webp",
+              "imageAAlt": "Warehouse worker checking inventory on a tablet",
+              "imageB": "/a1.webp",
+              "imageBAlt": "Worker taping a branded shipping box"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "FreightServices1": {
+              "sectionId": "services",
+              "badge": "OUR SERVICES",
+              "titleLines": [
+                [{ "t": "Comprehensive" }],
+                [{ "t": "Logistics", "accent": true }],
+                [{ "t": "Solutions" }]
+              ],
+              "description": "Reliable, efficient, and end-to-end logistics services tailored to your global business needs.",
+              "autoplayMs": 5000,
+              "services": [
+                {
+                  "title": "International Shipping",
+                  "text": "Global sea freight solutions for safe and timely cargo delivery across continents.",
+                  "icon": "shipping",
+                  "image": "/hero.webp"
+                },
+                {
+                  "title": "Air Freight",
+                  "text": "Fast, secure air cargo for time-critical shipments to every major hub.",
+                  "icon": "air",
+                  "image": "/s2.webp"
+                },
+                {
+                  "title": "Warehousing",
+                  "text": "Secure storage, inventory control and smart fulfilment close to your market.",
+                  "icon": "warehousing",
+                  "image": "/s3.webp"
+                },
+                {
+                  "title": "Network Transportation",
+                  "text": "Dependable road networks that move your freight door to door, on schedule.",
+                  "icon": "transportation",
+                  "image": "/hero.webp"
+                },
+                {
+                  "title": "Rail Freight",
+                  "text": "Cost-effective, low-emission rail links for heavy and bulk cargo.",
+                  "icon": "rail",
+                  "image": "/a1.webp"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "FreightWhyChoose1": {
+              "sectionId": "why-choose-us",
+              "badge": "WHY CHOOSE US",
+              "titleLines": [
+                [{ "t": "Cost-Effective" }],
+                [{ "t": "Logistics" }, { "t": "Services", "accent": true }]
+              ],
+              "description": "We combine global reach, industry expertise, and advanced logistics solutions to deliver your cargo safely, on time, and within budget.",
+              "image": "/w1.webp",
+              "imageAlt": "Cargo aircraft and logistics specialist on the tarmac",
+              "cardTitle": ["Modern Businesses", "Smart Logistics"],
+              "cardText": "Delivering reliable, efficient, and scalable logistics solutions that keep your business moving forward.",
+              "features": [
+                {
+                  "title": "Real-time Tracking",
+                  "description": "Stay updated with complete shipment visibility.",
+                  "icon": "tracking"
+                },
+                {
+                  "title": "Safety Standards",
+                  "description": "Secure handling with international safety norms.",
+                  "icon": "safety"
+                },
+                {
+                  "title": "Customer Service",
+                  "description": "A dedicated team for seamless support.",
+                  "icon": "support"
+                },
+                {
+                  "title": "Reliable & Flexible",
+                  "description": "Tailored solutions to meet your unique business needs.",
+                  "icon": "flexible"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "FreightTeam1": {
+              "sectionId": "team",
+              "badge": "OUR TEAM",
+              "title": [
+                { "t": "Meet" },
+                { "t": "Our" },
+                { "t": "Expert" },
+                { "t": "Team", "accent": true }
+              ],
+              "description": "A team of logistics professionals committed to delivering reliable, efficient, and customer-focused supply chain solutions worldwide.",
+              "members": [
+                { "name": "Daniel Carter", "role": "Chief Executive Officer", "image": "/team-1.webp" },
+                { "name": "Emily Richards", "role": "Operations Manager", "image": "/team-2.webp" },
+                { "name": "Matthew Brooks", "role": "Logistics Manager", "image": "/team-3.webp" },
+                { "name": "James Anderson", "role": "Supply Chain Head", "image": "/team-4.webp" }
+              ]
+            }
+          }
+        },
+        "HowItWorks": {
+          "variants": {
+            "FreightHowItWorks1": {
+              "sectionId": "how-it-works",
+              "badge": "HOW IT WORKS",
+              "title": [
+                { "t": "A" },
+                { "t": "Simple" },
+                { "t": "&" },
+                { "t": "Reliable" },
+                { "t": "Process", "accent": true }
+              ],
+              "steps": [
+                {
+                  "title": "Book Shipment",
+                  "description": "Share your shipment details and requirements with us.",
+                  "icon": "book"
+                },
+                {
+                  "title": "Prepare Cargo",
+                  "description": "We handle the packaging, documentation, and cargo readiness.",
+                  "icon": "prepare"
+                },
+                {
+                  "title": "Transport & Track",
+                  "description": "Your cargo moves safely with real-time tracking and updates.",
+                  "icon": "track"
+                },
+                {
+                  "title": "Final Delivery",
+                  "description": "We deliver your shipment to the destination on time and in perfect condition.",
+                  "icon": "delivery"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "FreightTestimonials1": {
+              "sectionId": "testimonials",
+              "badge": "TESTIMONIALS",
+              "title": [
+                { "t": "What" },
+                { "t": "Our" },
+                { "t": "Clients" },
+                { "t": "Say", "accent": true }
+              ],
+              "description": "Trusted by businesses worldwide for reliable and efficient logistics solutions.",
+              "defaultActiveIndex": 1,
+              "autoplayMs": 6000,
+              "prevAriaLabel": "Previous testimonial",
+              "nextAriaLabel": "Next testimonial",
+              "dotAriaLabelPrefix": "Show testimonial",
+              "testimonials": [
+                {
+                  "quote": "Freightix has been a game-changer for our supply chain. Their timely deliveries, real-time tracking, and professional support are outstanding.",
+                  "name": "Michael Turner",
+                  "role": "Operations Director, GlobalTrade Inc."
+                },
+                {
+                  "quote": "A reliable and efficient logistics partner. They consistently deliver on time and keep us informed at every step.",
+                  "name": "Emily Carter",
+                  "role": "Supply Chain Manager, Nexa Foods"
+                },
+                {
+                  "quote": "From port clearance to final warehouse drop-off, their visibility and coordination saved us multiple transit delays.",
+                  "name": "Neha Kapoor",
+                  "role": "Import Operations Lead"
+                },
+                {
+                  "quote": "Competitive freight rates paired with responsive ground support made scaling our regional distribution effortless.",
+                  "name": "Arjun Mehta",
+                  "role": "Supply Chain Director"
+                },
+                {
+                  "quote": "Every shipment arrives intact and on schedule, giving our retail partners complete confidence in our delivery promises.",
+                  "name": "Rachel Foster",
+                  "role": "Commercial Logistics Manager"
+                },
+                {
+                  "quote": "Excellent service and great communication. The team is responsive, professional, and truly customer-focused.",
+                  "name": "Daniel Brooks",
+                  "role": "Logistics Head, Orion Enterprises"
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "FreightContact1": {
+              "sectionId": "contact",
+              "badge": "CONTACT US",
+              "titleLines": [
+                [{ "t": "Let’s" }, { "t": "Discuss" }, { "t": "Your" }],
+                [{ "t": "Logistics" }, { "t": "Needs", "accent": true }]
+              ],
+              "subtitle": "We’re here to provide the right logistics solutions for your business. Reach out to us for inquiries, support, or a customized quote.",
+              "infoItems": [
+                {
+                  "id": "call",
+                  "label": "Call Us",
+                  "value": "+1 000 000 000",
+                  "href": "tel:+1000000000",
+                  "icon": "phone"
+                },
+                {
+                  "id": "email",
+                  "label": "Email Us",
+                  "value": "info@xyz.com",
+                  "href": "mailto:info@xyz.com",
+                  "icon": "mail"
+                },
+                {
+                  "id": "office",
+                  "label": "Our Office",
+                  "value": "123 Freightix , New York, NY 10001",
+                  "href": "",
+                  "icon": "map"
+                }
+              ],
+              "highlights": [
+                { "title": "Fast Response", "icon": "truck" },
+                { "title": "Reliable Support", "icon": "shield" },
+                { "title": "Customized Solutions", "icon": "layers" }
+              ],
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Have a question or need a customized logistics solution? Fill out the form and our team will get back to you shortly.",
+                "fields": {
+                  "nameLabel": "Your Name",
+                  "namePlaceholder": "Enter your name",
+                  "emailLabel": "Your Email",
+                  "emailPlaceholder": "Enter your email",
+                  "phoneLabel": "Phone No.",
+                  "phonePlaceholder": "Enter phone number",
+                  "freightLabel": "Freight Type",
+                  "freightDefault": "Select",
+                  "loadLabel": "Load",
+                  "loadDefault": "Select",
+                  "messageLabel": "Your Message",
+                  "messagePlaceholder": "Type your message here..."
+                },
+                "freightOptions": [
+                  "International Shipping",
+                  "Air Freight",
+                  "Warehousing",
+                  "Network Transportation",
+                  "Rail Freight"
+                ],
+                "loadOptions": [
+                  "Full Container (FCL)",
+                  "Less than Container (LCL)",
+                  "Bulk Cargo"
+                ],
+                "submitLabel": "SUBMIT REQUEST",
+                "successTitle": "Request submitted",
+                "successPrefix": "Thanks,",
+                "defaultName": "there",
+                "successSuffix": "Our team will reach out to you shortly.",
+                "resetLabel": "Send another request"
+              }
+            }
+          }
+        },
+        "Faqs": {
+          "variants": {
+            "FreightFaqs1": {
+              "sectionId": "faqs",
+              "badge": "FAQS",
+              "watermark": "?",
+              "titleLines": [
+                [{ "t": "Frequently" }, { "t": "Asked" }],
+                [{ "t": "Questions" }, { "t": "About" }, { "t": "Our" }],
+                [{ "t": "Logistics", "accent": true }, { "t": "Services", "accent": true }]
+              ],
+              "description": "Find answers to the most common questions about our shipping, tracking, delivery, and other logistics solutions.",
+              "defaultOpenIndex": 0,
+              "items": [
+                {
+                  "question": "Q: How do I book a logistics service with your company?",
+                  "answer": "You can easily book a service by filling out our online booking form or contacting our customer support. We’ll assist you in selecting the right transport solution for your needs."
+                },
+                {
+                  "question": "Q: What types of logistics services do you offer?",
+                  "answer": "We offer international sea freight, air freight, warehousing, network road transportation, and rail freight tailored to domestic and global cargo requirements."
+                },
+                {
+                  "question": "Q: How can I track my shipment?",
+                  "answer": "Once your shipment is dispatched, you receive tracking details and real-time status updates from pickup through transit to final delivery."
+                },
+                {
+                  "question": "Q: What are your payment and billing options?",
+                  "answer": "We support flexible corporate invoicing, bank transfers, and standard digital payment options depending on your shipment contract and volume."
+                }
+              ]
+            }
+          }
+        },
+        "Footer": {
+          "variants": {
+            "FreightFooter1": {
+              "sectionId": "footer",
+              "homeHref": "#home",
+              "homeAriaLabel": "Freightix home",
+              "logo": "/logo-w.png",
+              "logoAlt": "Freightix – Global Logistics Solutions",
+              "summary": "Reliable, efficient, and cost-effective logistics solutions for businesses worldwide.",
+              "quickLinksHeading": "Quick Links",
+              "supportHeading": "Support",
+              "contactHeading": "Get in Touch",
+              "quickLinks": [
+                { "label": "Home", "href": "#home" },
+                { "label": "About Us", "href": "#about" },
+                { "label": "Services", "href": "#services" },
+                { "label": "Products", "href": "#services" },
+                { "label": "Industry We Serve", "href": "#why-choose-us" }
+              ],
+              "supportLinks": [
+                { "label": "Testimonials", "href": "#testimonials" },
+                { "label": "FAQs", "href": "#faqs" },
+                { "label": "Contact Us", "href": "#contact" }
+              ],
+              "contacts": [
+                { "label": "+1 000 000 000", "href": "tel:+1000000000", "icon": "phone", "filled": true },
+                { "label": "info@xyz.com", "href": "mailto:info@xyz.com", "icon": "mail", "filled": false },
+                { "label": "123 Freightix , New York, NY 10001", "icon": "map", "filled": true }
+              ],
+              "copyright": "© 2026 Freightix. All Rights Reserved. Powered By Lestow."
+            }
+          }
+        }
+      }
+    }
+  }
+}
